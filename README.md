@@ -28,9 +28,14 @@ You can find this pseudocode bellow.
 - Grouped Querry Attention.ipynb: The Jupyter notebook with detailed explanations, comparisons, and visualizations.
 - README.md: This file, providing a summary of the project and links to the notebook.
 - Algorithms for transformers.pdf. An article explaining the architecture in transformers.
-- The original GQA paper by Ainslie et al., 2023
+- [The original GQA paper by Ainslie et al., 2023](https://arxiv.org/abs/2305.13245)
 
-  
+6. Additional Resources
+
+- [Towards Data Science Overview](https://towardsdatascience.com/demystifying-gqa-grouped-query-attention-3fb97b678e4a)
+- [Variants of Multi-Head Attention Video] (https://www.youtube.com/watch?v=pVP0bu8QA2w)
+- [Runtime reproduction expirement](https://github.com/fkodom/grouped-query-attention-pytorch)
+- [As seen in Lama2](https://github.com/meta-llama/llama/blob/6c7fe276574e78057f917549435a2554000a876d/llama/model.py)
 #### Pseudocode of GQA
 ```python
 # Parameters:
