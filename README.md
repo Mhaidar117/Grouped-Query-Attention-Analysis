@@ -2,7 +2,8 @@
 #### GQA in Transformers: Comparison with Multi-Head and Multi-Query Attention
 
 This repository explores Grouped-Query Attention (GQA), an efficient variation of the attention mechanism in transformers that balances the trade-off between memory usage and model performance. GQA generalizes both Multi-Head Attention (MHA) and Multi-Query Attention (MQA) by sharing key-value pairs across groups of query heads.
-Contents
+Contents:
+
 1. Jupyter Notebook
 The notebook provides an in-depth explanation of how GQA works, and compares it to MHA and MQA. It includes:
 An overview of the challenges in scaling transformers, particularly with attention mechanisms.
@@ -17,10 +18,16 @@ The repository also includes pseudocode for GQA, illustrating how the query, key
 Query heads are grouped.
 Key and value heads are shared within groups.
 The attention mechanism computes attention scores using shared key-value pairs.
-You can find this pseudocode in the repository's README file for easy reference.
+You can find this pseudocode bellow.
 3. Repository Files
-notebook.ipynb: The Jupyter notebook with detailed explanations, comparisons, and visualizations.
+Grouped Querry Attention.ipynb: The Jupyter notebook with detailed explanations, comparisons, and visualizations.
 README.md: This file, providing a summary of the project and links to the notebook.
+Algorithms for transformers.pdf. An article explaining the architecture in transformers.
+The original GQA paper by Ainslie et al., 2023
+
+
+#### Pseudocode of GQA
+
 
 ```python
 # Parameters:
