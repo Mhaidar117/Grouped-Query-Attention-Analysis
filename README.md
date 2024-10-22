@@ -33,7 +33,7 @@ You can find this pseudocode bellow.
 6. Additional Resources
 
 - [Towards Data Science Overview](https://towardsdatascience.com/demystifying-gqa-grouped-query-attention-3fb97b678e4a)
-- [Variants of Multi-Head Attention Video] (https://www.youtube.com/watch?v=pVP0bu8QA2w)
+- [Variants of Multi-Head Attention Video](https://www.youtube.com/watch?v=pVP0bu8QA2w)
 - [Runtime reproduction expirement](https://github.com/fkodom/grouped-query-attention-pytorch)
 - [As seen in Lama2](https://github.com/meta-llama/llama/blob/6c7fe276574e78057f917549435a2554000a876d/llama/model.py)
 #### Pseudocode of GQA
