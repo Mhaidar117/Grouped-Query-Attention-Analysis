@@ -1,4 +1,4 @@
-### Grouped-Query Attention (GQA) Pseudocode
+### Grouped-Query Attention (GQA) 
 #### GQA in Transformers: Comparison with Multi-Head and Multi-Query Attention (Ainslie et al., 2023)
 
 This repository explores Grouped-Query Attention (GQA), an efficient variation of the attention mechanism in transformers that balances the trade-off between memory usage and model performance. GQA generalizes both Multi-Head Attention (MHA) and Multi-Query Attention (MQA) by sharing key-value pairs across groups of query heads.
